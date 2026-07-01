@@ -1,0 +1,7 @@
+# Normalize line endings
+* text=auto
+
+# Treat Power Platform solution files as XML
+*.xml text
+*.xsd text
+*.resx text
