@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5326b77d-c6b7-4390-8713-9619efa115c8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_id" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_paymentid">
+          <cell name="cr08f_id" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="cr08f_contact" width="100" />
+          <cell name="cr08f_amount" width="100" />
+          <cell name="cr08f_paymenttype" width="117" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_payment">
+          <attribute name="cr08f_paymentid" />
+          <attribute name="cr08f_id" />
+          <attribute name="createdon" />
+          <order attribute="cr08f_id" descending="false" />
+          <attribute name="cr08f_contact" />
+          <attribute name="cr08f_amount" />
+          <attribute name="cr08f_paymenttype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Payment Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

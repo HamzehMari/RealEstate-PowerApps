@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.26053.146" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26053.146" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.26061.00150">
+  <SolutionManifest>
+    <UniqueName>RealEstate</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Real Estate" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.5</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>Crc1981</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CDS Default Publisher" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>cr08f</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>17514</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_17670775880714406" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_17670776023208002" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_17670776120559666" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_17670776256636082" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_building" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_contract" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_contract_interview" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_contractapproval" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_contracthistory" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_installment_interview" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_invoice" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_payment" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_payment_interview" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_unit_interview" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_unitbase" behavior="0" />
+      <RootComponent type="1" schemaName="cr08f_unitcontract" behavior="0" />
+      <RootComponent type="29" id="{1c6a4305-daf1-f011-8406-0022489d3371}" behavior="0" />
+      <RootComponent type="29" id="{28a7e653-619f-f011-b41b-000d3ad779b9}" behavior="0" />
+      <RootComponent type="29" id="{4208c27a-71ec-f011-8406-7c1e52348447}" behavior="0" />
+      <RootComponent type="29" id="{58f65ceb-ebf1-f011-8406-7ced8d476bd5}" behavior="0" />
+      <RootComponent type="29" id="{aa1740aa-8094-f011-b4cb-7ced8d2d79c4}" behavior="0" />
+      <RootComponent type="29" id="{ab1740aa-8094-f011-b4cb-7ced8d2d79c4}" behavior="0" />
+      <RootComponent type="29" id="{ac1740aa-8094-f011-b4cb-7ced8d2d79c4}" behavior="0" />
+      <RootComponent type="29" id="{ff0fac9a-c69d-f011-b41b-7ced8d2c2e1a}" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_alert" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_building1062" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_calculateContractPrice" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_CallculateDate" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_EnforceFormat" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_freebuildingicon1062thumb" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_LockInstallment" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_LockUnitBase" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_taxVisibil" behavior="0" />
+      <RootComponent type="61" schemaName="cr08f_ToggleInstall" behavior="0" />
+      <RootComponent type="62" schemaName="cr08f_RealEstate" behavior="0" />
+      <RootComponent type="70" id="{00ddee83-52fb-f011-8406-7ced8d2d1452}" behavior="0" />
+      <RootComponent type="70" id="{23e17474-4efb-f011-8406-7ced8d2d1452}" behavior="0" />
+      <RootComponent type="80" schemaName="cr08f_RealEstate" behavior="0" />
+      <RootComponent type="9" schemaName="cr08f_calendartype" behavior="0" />
+      <RootComponent type="9" schemaName="cr08f_contractstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr08f_contracttype" behavior="0" />
+      <RootComponent type="9" schemaName="cr08f_frequencyofpayment" behavior="0" />
+      <RootComponent type="9" schemaName="cr08f_installmentstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr08f_invoicestatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr08f_paymenttype" behavior="0" />
+      <RootComponent type="9" schemaName="cr08f_unitbasestatus" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_externalidentity" displayName="External Identity" solution="PowerPages_RuntimeCore (1.0.2509.1)">
+          <package appName="Power Pages Core Package" version="1.1.2602.237">PowerPages_Core (1.1.2602.237)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="PowerPages_RuntimeCore (1.0.2509.1)">
+          <package appName="Power Pages Core Package" version="1.1.2602.237">PowerPages_Core (1.1.2602.237)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webformsession" displayName="Multistep Form Session" solution="PowerPages_RuntimeCore (1.0.2509.1)">
+          <package appName="Power Pages Core Package" version="1.1.2602.237">PowerPages_Core (1.1.2602.237)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="powerpagessiteaifeedback" displayName="Power Pages Site AI Feedback" solution="PowerPages_RuntimeExtensions (1.1.2501.1)">
+          <package appName="Power Pages Core Package" version="1.1.2602.237">PowerPages_Core (1.1.2602.237)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="cr08f_RealEstate" displayName="Real Estate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="mspcat_/box_24_regular.svg" displayName="mspcat_/box_24_regular.svg" solution="mspcat_CatalogPackaging (1.4.503.500)">
+          <package appName="PackageBuilderPackage" version="1.4.503.500">mspcat_CatalogPackaging (1.4.503.500)</package>
+        </Required>
+        <Dependent type="62" schemaName="cr08f_RealEstate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="mspp_portal_languages.svg" displayName="mspp_portal_languages.svg" solution="PowerPages_AppResources (1.0.2602.3)">
+          <package appName="Power Pages Core Package" version="1.1.2602.237">PowerPages_Core (1.1.2602.237)</package>
+        </Required>
+        <Dependent type="62" schemaName="cr08f_RealEstate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="mspp_web_forms.svg" displayName="mspp_web_forms.svg" solution="PowerPages_AppResources (1.0.2602.3)">
+          <package appName="Power Pages Core Package" version="1.1.2602.237">PowerPages_Core (1.1.2602.237)</package>
+        </Required>
+        <Dependent type="62" schemaName="cr08f_RealEstate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.17)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.25">PowerAppsAppFramework_Anchor (1.0.0.25)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=cr08f_RealEstate,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="cr08f_RealEstate" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

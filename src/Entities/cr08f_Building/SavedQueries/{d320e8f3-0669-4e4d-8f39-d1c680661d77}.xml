@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d320e8f3-0669-4e4d-8f39-d1c680661d77}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_newcolumn" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_buildingid">
+          <cell name="cr08f_newcolumn" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_building">
+          <attribute name="cr08f_buildingid" />
+          <attribute name="cr08f_newcolumn" />
+          <attribute name="createdon" />
+          <order attribute="cr08f_newcolumn" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Buildings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

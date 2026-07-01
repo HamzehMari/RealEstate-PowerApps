@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a55fef26-32f7-4c25-a259-ee3cde7fb074}</savedqueryid>
+    <layoutxml>
+      <grid name="cr08f_unitcontracts" jump="cr08f_newcolumn" select="1" icon="1" preview="1">
+        <row name="cr08f_unitcontract" id="cr08f_unitcontractid">
+          <cell name="cr08f_newcolumn" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_unitcontract">
+          <attribute name="cr08f_unitcontractid" />
+          <attribute name="cr08f_newcolumn" />
+          <attribute name="createdon" />
+          <order attribute="cr08f_newcolumn" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Unit-contract Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

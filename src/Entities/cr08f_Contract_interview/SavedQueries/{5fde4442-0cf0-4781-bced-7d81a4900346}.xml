@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5fde4442-0cf0-4781-bced-7d81a4900346}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_newcolumn" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_contract_interviewid">
+          <cell name="cr08f_newcolumn" width="300" />
+          <cell name="cr08f_firstinstallmentdate" width="163" />
+          <cell name="cr08f_installmentamount" width="153" />
+          <cell name="cr08f_numberofinstallments" width="173" />
+          <cell name="cr08f_totalamount" width="118" />
+          <cell name="cr08f_approved" width="100" />
+          <cell name="cr08f_unit" width="100" />
+          <cell name="cr08f_client" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_contract_interview">
+          <attribute name="cr08f_contract_interviewid" />
+          <attribute name="cr08f_newcolumn" />
+          <order attribute="cr08f_newcolumn" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr08f_firstinstallmentdate" />
+          <attribute name="cr08f_installmentamount" />
+          <attribute name="cr08f_numberofinstallments" />
+          <attribute name="cr08f_totalamount" />
+          <attribute name="cr08f_approved" />
+          <attribute name="cr08f_unit" />
+          <attribute name="cr08f_client" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract_interviews" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

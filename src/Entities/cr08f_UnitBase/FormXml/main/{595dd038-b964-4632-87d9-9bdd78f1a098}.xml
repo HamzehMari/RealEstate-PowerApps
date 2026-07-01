@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{595dd038-b964-4632-87d9-9bdd78f1a098}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{cde8fce2-5eca-4fb2-9b08-5a818f050cb8}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{19e10d8c-223f-4e98-a9ad-ea411a6e3b95}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e2cfaaa5-10b4-47fd-becd-a1e71749a6a0}" visible="false">
+                        <labels>
+                          <label description="BaseID" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_newcolumn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr08f_newcolumn" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12f1c9c7-b173-48f9-ad10-1a5d741b7a25}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_building" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_building" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d3719e4d-d620-4e62-86ff-c31012f5e1ef}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="CurrentContract" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_currentcontract" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_currentcontract" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e14a0973-ae28-418d-afcd-edfea38638f3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr08f_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d551f8d-0930-493d-b184-360168aaa8ac}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be7d172c-b680-44a2-9003-8017182dea7b}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{69decd72-63b6-4116-b42a-7348de30b399}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Unit Base Status" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_status" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr08f_status" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d65a2763-9a78-4883-9ab6-e90f9fe18d72}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Area" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_area" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr08f_area" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{193cd51a-de5c-4763-ad54-5ad9628ee530}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="floor" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_floor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_floor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed7f870c-419c-4e7f-8d15-343b4f77460c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="neighborhood" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_neighborhood" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_neighborhood" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aa5fb6b5-66d5-4103-956d-2f4cc3bcd4df}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Price per meter" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_pricepermeter" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr08f_pricepermeter" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{18444c6b-c491-48f7-9ede-6d3cb7afc9ab}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_region" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_region" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da20fa4c-4fa7-4400-9a7b-bcbe3708ab38}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="spot" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_spot" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_spot" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{06bf20e8-d3a5-4a1b-ac05-4e7f7e0fd1b6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c1f79ebc-1194-4e1b-b6a7-33ce9032d76a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{41412b6c-f352-401f-8634-9abb3990993e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{539a5aeb-6e39-43ca-b60a-b4fc94f0406f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{bbdd6c01-79fd-4f6d-8bbd-7ec5756eca8e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ba3b874e-3255-4416-ae31-318d657107dd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1dea50a5-d285-400c-9f5c-f56251d2baf9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9a40de20-9283-4823-9801-3d4cd59ae1bc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

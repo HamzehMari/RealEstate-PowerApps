@@ -1,0 +1,22 @@
+function EnforceFormat(executionContext) {
+	var formContext = executionContext.getFormContext();
+	var field = formContext.getAttribute("cr08f_details").getValue();
+        if(field==null)
+          {
+           formContext.ui.setFormNotification(
+			"Format must be: month/2, year/10, or week/6","ERROR","1");
+          }
+         else{
+formContext.ui.clearFormNotification("1");
+}
+	field.replace(" ", "");
+        var regex = /^(week|year|month)\/\d+$/i;
+	if (!regex.test(field.replace(" ", "")))
+	{
+		formContext.ui.setFormNotification(
+			"Format must be: month/2, year/10, or week/3","ERROR","1");
+	}
+	else {
+		formContext.ui.clearFormNotification("1");
+	}  
+}

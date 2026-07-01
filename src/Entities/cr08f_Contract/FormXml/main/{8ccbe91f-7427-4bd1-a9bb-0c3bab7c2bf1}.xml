@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8ccbe91f-7427-4bd1-a9bb-0c3bab7c2bf1}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{547c71b9-87fa-429b-8dc6-cff930d62767}" IsUserDefined="1" name="general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6b7b808d-8db2-4b86-beef-2acab4e39d70}" name="k">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{87179e67-3583-43cf-9149-40685a2fcfc2}" visible="false">
+                        <labels>
+                          <label description="ContractID" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_newcolumn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr08f_newcolumn" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7559fb09-85bd-4afa-9aac-e1467ac060a7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr08f_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea11b0aa-320f-4a9c-95bb-ae11a0cbe6af}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_contact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3cfa982c-55a0-43d7-9a01-a5fe43ae248c}" locklevel="1" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="NumberOfInstallments" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_numberofinstallments" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr08f_numberofinstallments" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2e03538f-94bc-457f-b8fb-e3495e63de59}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contract type" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_contracttype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr08f_contracttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{090fbb90-7792-4fed-a832-2a1b62cf2deb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Calendar type" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_calendartype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr08f_calendartype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{856d71dc-51f0-4c36-b700-d2ac3c4e28f8}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="frequency/installments" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_details" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr08f_details" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a109913-e585-4cc8-8600-0e5f32e66907}" locklevel="1" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="UnitBase" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_unitbase" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_unitbase" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0dcdf928-442b-4f95-abfa-fc3659f7713b}" locklevel="1" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_frequency" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr08f_frequency" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05e03acd-4673-47c5-b277-b83cfca11e78}" locklevel="1" colspan="1" rowspan="1" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_frequency" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr08f_frequency" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3956b5af-99bf-4235-b7cb-d3a44f1ebbbe}" locklevel="1" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_frequency" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr08f_frequency" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ef7389a2-a035-4ed3-af78-63c4bd1464e7}" locklevel="1" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="ContractStatus" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_contractstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr08f_contractstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{95349fe0-a8aa-47c7-843d-f1b6a72832b9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="StartDate" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_startdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr08f_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed035fe6-d912-4d63-9b0a-474cd6d91705}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="EndDate" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_enddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr08f_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75fe2354-b701-4c08-83dc-3bbd0c863cb6}" locklevel="1" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_frequency" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr08f_frequency" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{48dd7d30-809a-47f0-80ac-5d41d763355d}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aefa157f-aa7a-485b-8491-e7a429800da1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="price before tax" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_sumprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr08f_sumprice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44db430e-97c1-4255-bc47-8560c1e86536}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Price After Tax" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_priceaftertax" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr08f_priceaftertax" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bf531489-c479-4b70-95e8-f863a5365a6d}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="invoiceCreated" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_invoicecreated" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr08f_invoicecreated" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9e5ee0b-8493-413e-951f-659abd39e5a0}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="invoiceCreated" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_invoicecreated" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr08f_invoicecreated" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{f4520588-4797-4a53-a747-ed7180e7a270}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="units" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_3" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>cr08f_unitcontract_Contract_cr08f_contract</RelationshipName>
+                            <TargetEntityType>cr08f_unitcontract</TargetEntityType>
+                            <ViewId>{C3BEA8D3-F93E-48C1-8538-B87D385FE357}</ViewId>
+                            <ViewIds>{C3BEA8D3-F93E-48C1-8538-B87D385FE357}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="7996628f-1709-4e43-8627-58d9f0c5093b" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="related unit bases" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="325a0aea-14ca-4aa5-ac31-070f908bc32d" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Related unit bases" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{d88d5a47-5794-41c0-9446-1bdab9caa52c}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="Related unit bases" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>cr08f_Contract_cr08f_Contract_cr08f_UnitBase</RelationshipName>
+                            <TargetEntityType>cr08f_unitbase</TargetEntityType>
+                            <ViewId>{172BB97A-74B8-40FF-89B2-23D0613511CD}</ViewId>
+                            <ViewIds>{172BB97A-74B8-40FF-89B2-23D0613511CD}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{58aa057b-c428-474c-84d1-1ef75f956f9a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ef504597-dc02-48fd-8e4f-14c37212881f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a8a24dde-9a9c-415e-8c78-68e5600e0431}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{da5ef557-8dc2-4b78-900b-f6e7fdd550b3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{6ced39ce-6616-4ed3-9fd0-c082a6a7acd7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{15d7d0b7-3d98-476d-a561-25af931482d8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{51804701-6048-4dd4-a56e-110293999035}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fb27e13e-d100-486e-b783-da867b7f902a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="cr08f_LockUnitBase" libraryUniqueId="{ffb8bdd6-ec9e-4571-ab96-e87500e870d9}" />
+        <Library name="cr08f_ToggleInstall" libraryUniqueId="{b375efee-b5c4-4fa2-a714-ec044344efa6}" />
+        <Library name="cr08f_EnforceFormat" libraryUniqueId="{b4a04082-7115-42fc-b1a4-0f9fbca22abc}" />
+        <Library name="cr08f_CallculateDate" libraryUniqueId="{b769d85e-c14d-4fbf-89ba-922910ae1edb}" />
+        <Library name="cr08f_calculateContractPrice" libraryUniqueId="{e35f897d-6d4e-45c5-b4c4-acab8db7f96e}" />
+        <Library name="cr08f_taxVisibil" libraryUniqueId="{7d03ddd5-b308-40a6-bfd1-844a8ad5e764}" />
+        <Library name="cr08f_alert" libraryUniqueId="{1122a926-cb07-4891-98c5-718a3df5a43d}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="cr08f_numberofinstallments">
+          <Handlers>
+            <Handler functionName="toggleInstallments" libraryName="cr08f_ToggleInstall" handlerUniqueId="{4ba7a6bd-6d15-443a-af98-7f0501fb9774}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+          <dependencies>
+            <dependency id="cr08f_frequency" />
+            <dependency id="cr08f_numberofinstallments" />
+          </dependencies>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cr08f_frequency">
+          <Handlers>
+            <Handler functionName="toggleInstallments" libraryName="cr08f_ToggleInstall" handlerUniqueId="{e7f84743-f60e-44b4-b639-f04401cc734c}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+          <dependencies>
+            <dependency id="cr08f_frequency" />
+            <dependency id="cr08f_numberofinstallments" />
+          </dependencies>
+        </event>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="calculateContractPrice" libraryName="cr08f_calculateContractPrice" handlerUniqueId="{41b7c31b-c3b8-430b-8ddc-f08b2655071c}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="taxvisible" libraryName="cr08f_taxVisibil" handlerUniqueId="{a1cd0c44-8f21-44ad-b893-2ac1e67c79a5}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cr08f_sumprice">
+          <Handlers>
+            <Handler functionName="calculateContractPrice" libraryName="cr08f_calculateContractPrice" handlerUniqueId="{fefb850f-ab44-43f6-8cb7-ad85da34e78f}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cr08f_contracttype">
+          <Handlers>
+            <Handler functionName="taxvisible" libraryName="cr08f_taxVisibil" handlerUniqueId="{2579d8c1-36b8-486b-817f-8a94c0887618}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cr08f_details">
+          <Handlers>
+            <Handler functionName="EnforceFormat" libraryName="cr08f_EnforceFormat" handlerUniqueId="{a8b10a18-b9f2-419e-8d27-6b68010c950e}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cr08f_startdate">
+          <Handlers>
+            <Handler functionName="calculateDate" libraryName="cr08f_CallculateDate" handlerUniqueId="{a684a76e-e00d-40d5-a7db-702961f15313}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

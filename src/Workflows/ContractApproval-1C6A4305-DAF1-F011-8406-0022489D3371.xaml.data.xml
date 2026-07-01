@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1c6a4305-daf1-f011-8406-0022489d3371}" Name="Contract Approval" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ContractApproval-1C6A4305-DAF1-F011-8406-0022489D3371.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>cr08f_contractapproval</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>cr08f_Contract</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Contract Approval" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{9fddd3ee-7ebb-453e-a87b-7b241733a66a}">
+      <label languagecode="1033" description="Accountant Approval" />
+    </steplabels>
+    <steplabels id="{c4916192-3dd8-495b-8f9a-ececeb025c02}">
+      <label languagecode="1033" description="Accountant Note" />
+    </steplabels>
+    <steplabels id="{a9bf5ee9-8320-4948-a144-0eb5ab1a6fba}">
+      <label languagecode="1033" description="Accountant approval" />
+    </steplabels>
+    <steplabels id="{113f3812-c488-49fe-8a4a-b6c451ef6f21}">
+      <label languagecode="1033" description="Manager Approval" />
+    </steplabels>
+    <steplabels id="{a620fb12-635b-41ab-b8af-345d1f9f59a0}">
+      <label languagecode="1033" description="Manager Notes" />
+    </steplabels>
+    <steplabels id="{96fd3007-4c84-490a-bebe-19b7fb49e15b}">
+      <label languagecode="1033" description="Manager approval" />
+    </steplabels>
+  </labels>
+</Workflow>

@@ -1,0 +1,41 @@
+function calculateDate(executionContext) {
+
+    var formContext = executionContext.getFormContext();
+
+    var detailsAttr = formContext.getAttribute("cr08f_details");
+    var startDateAttr = formContext.getAttribute("cr08f_startdate");
+    var endDateAttr = formContext.getAttribute("cr08f_enddate");
+
+    if (!detailsAttr || !startDateAttr || !endDateAttr) return;
+
+    var details = detailsAttr.getValue();
+    var startDate = startDateAttr.getValue();
+
+    if (!details || !startDate) return;
+
+    // Remove all spaces
+    details = details.replace(/\s/g, "");
+
+    var regex = /^(week|year|month)\/(\d+)$/i;
+
+    var match = details.match(regex);
+
+    if (!match) return;
+
+    var frequency = match[1].toLowerCase();
+    var numberOfPayments = parseInt(match[2]);
+
+    var endDate = new Date(startDate);
+
+    if (frequency === "month") {
+        endDate.setMonth(endDate.getMonth() + numberOfPayments);
+    }
+    else if (frequency === "year") {
+        endDate.setFullYear(endDate.getFullYear() + numberOfPayments);
+    }
+    else if (frequency === "week") {
+        endDate.setDate(endDate.getDate() + (7 * numberOfPayments));
+    }
+
+    endDateAttr.setValue(endDate);
+}

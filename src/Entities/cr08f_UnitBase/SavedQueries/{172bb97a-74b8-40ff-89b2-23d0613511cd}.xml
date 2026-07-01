@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{172bb97a-74b8-40ff-89b2-23d0613511cd}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_newcolumn" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_unitbaseid">
+          <cell name="cr08f_name" width="100" />
+          <cell name="cr08f_status" width="122" />
+          <cell name="cr08f_building" width="100" />
+          <cell name="cr08f_currentcontract" width="131" />
+          <cell name="cr08f_price" width="100" />
+          <cell name="cr08f_region" width="100" />
+          <cell name="cr08f_spot" width="100" />
+          <cell name="cr08f_neighborhood" width="118" />
+          <cell name="cr08f_floor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="cr08f_unitbase">
+          <attribute name="cr08f_unitbaseid" />
+          <attribute name="cr08f_name" />
+          <attribute name="cr08f_currentcontract" />
+          <attribute name="cr08f_building" />
+          <attribute name="cr08f_status" />
+          <order attribute="cr08f_name" descending="false" />
+          <link-entity name="cr08f_contract" alias="aa" link-type="inner" from="cr08f_unitbase" to="cr08f_unitbaseid" />
+          <attribute name="cr08f_price" />
+          <attribute name="cr08f_region" />
+          <attribute name="cr08f_spot" />
+          <attribute name="cr08f_neighborhood" />
+          <attribute name="cr08f_floor" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Unit Bases" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

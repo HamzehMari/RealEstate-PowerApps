@@ -1,0 +1,24 @@
+function calculateContractPrice(executionContext) {
+    var formContext = executionContext.getFormContext();
+
+    var contractTypeAttr = formContext.getAttribute("cr08f_contracttype");
+    if (!contractTypeAttr) return;
+
+    var contractType = contractTypeAttr.getValue();
+    var total = formContext.getAttribute("cr08f_sumprice").getValue();
+
+    var priceAfterTaxAttr = formContext.getAttribute("cr08f_priceaftertax");
+
+    if (!priceAfterTaxAttr) return;
+
+    if (contractType === 145000000) {
+        priceAfterTaxAttr.setValue(null);
+        formContext.getControl("cr08f_priceaftertax").setVisible(false);
+    }
+    else {
+        var taxRate = 0.15;
+        var afterTax = total + (total * taxRate);
+        priceAfterTaxAttr.setValue(afterTax);
+        formContext.getControl("cr08f_priceaftertax").setVisible(true);
+    }
+}

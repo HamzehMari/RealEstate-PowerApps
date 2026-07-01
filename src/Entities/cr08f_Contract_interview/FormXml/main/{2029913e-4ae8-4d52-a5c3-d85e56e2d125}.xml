@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2029913e-4ae8-4d52-a5c3-d85e56e2d125}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{D7912BC4-294C-4A4B-931D-87ADBC91473E}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{365F0B68-09B0-4B11-9122-A178686952F7}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{70F2D1A3-FB74-4A34-A2A4-267BF6CC347B}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_newcolumn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr08f_Newcolumn" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{CE3A87D5-DDF3-4CF8-9538-470D4FAF4AC9}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fc1e38ff-20f1-4662-ba6a-f37938a33076}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_newcolumn" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr08f_newcolumn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d842fd9-adc0-4029-9476-2cbb9a8d2926}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Client" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_client" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_client" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae590910-634c-49e6-be31-9d7ee7b515d1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_unit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d190e73b-d6e1-4981-a7bc-f7fb58be6070}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_totalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr08f_totalamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{98bbbe1f-84e2-45e5-9f8b-855c9971d3b1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Number of Installments" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_numberofinstallments" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr08f_numberofinstallments" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12a0c0e7-ef7b-4d7f-a1ef-1197c4a9cf39}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="First Installment Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_firstinstallmentdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr08f_firstinstallmentdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b7639039-b356-4a4d-a75e-48e18b20cc20}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Installment Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_installmentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr08f_installmentamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{146963e9-b686-41f8-93ce-6fcbeb7b8a2d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Approved" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_approved" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr08f_approved" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c630905d-cd0a-40ca-8d31-b2ce9577b2a0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{63e7d593-b017-4d66-b42d-5cf295b4aeb5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f7e7799b-a90a-406d-a635-e433c71f32da}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{01bd8b4e-59d9-409e-9a33-d3404bffccc4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ff2c2ea6-6328-4571-b778-55799310bb91}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{943b0079-2de1-465b-a5c2-844e4390eb60}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d9b12c89-dc66-4e43-86d2-b229d7d91121}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6e38583a-5c7d-42ff-9fb7-7fc64dc322d9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="cr08f_LockInstallment" libraryUniqueId="{97cdce36-7baa-4a9a-b4e6-cfe19520ac74}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="cr08f_approved">
+          <Handlers>
+            <Handler functionName="lockinstallment" libraryName="cr08f_LockInstallment" handlerUniqueId="{a6486170-97da-4574-90da-1051c5647cd9}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+          <dependencies>
+            <dependency id="cr08f_unit" />
+            <dependency id="cr08f_totalamount" />
+            <dependency id="cr08f_installmentamount" />
+            <dependency id="cr08f_client" />
+          </dependencies>
+        </event>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="lockinstallment" libraryName="cr08f_LockInstallment" handlerUniqueId="{58f16841-3be9-4258-ad06-e3a3e5e4cdc7}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+          <dependencies>
+            <dependency id="cr08f_client" />
+            <dependency id="cr08f_installmentamount" />
+            <dependency id="cr08f_totalamount" />
+            <dependency id="cr08f_numberofinstallments" />
+          </dependencies>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

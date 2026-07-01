@@ -1,0 +1,15 @@
+function toggleInstallments(executionContext) {
+return;
+console.log("toggleInstallments triggered");
+    var formContext = executionContext.getFormContext();
+    var frequency= formContext.getAttribute("cr08f_frequency").getValue();
+    var fieldcontrol = formContext.getControl("cr08f_numberofinstallments");
+
+   
+    if (numofInstallments !=null) {
+        fieldcontrol.setVisible(true);
+    }
+    else {
+        fieldcontrol.setVisible(false);
+    }
+}

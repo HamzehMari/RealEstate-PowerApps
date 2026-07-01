@@ -1,0 +1,3 @@
+function testalert(executionContext){
+        window.alert("JS works");
+}

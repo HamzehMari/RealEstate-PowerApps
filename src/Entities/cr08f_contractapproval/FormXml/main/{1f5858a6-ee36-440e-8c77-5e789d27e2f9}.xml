@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1f5858a6-ee36-440e-8c77-5e789d27e2f9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{9fddd3ee-7ebb-453e-a87b-7b241733a66a}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{f36acb6f-e7f4-4993-8b4b-d77d47e0fa0b}">
+          <labels>
+            <label description="Accountant Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d558eac3-0374-64cf-cfa3-f823e6d43e58}" name="StageStep3_section1" labelid="{3781080d-539b-47be-bdfc-c52e9aaee6a9}">
+                  <labels>
+                    <label description="Accountant Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c4916192-3dd8-495b-8f9a-ececeb025c02}" showlabel="true" visible="true" labelid="{64a20e29-22c5-4480-82fb-d3a8622385fd}">
+                        <labels>
+                          <label description="Accountant Note" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr08f_contract_cr08f_contractapproval:cr08f_accountantnotes" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cr08f_accountantnotes" disabled="false" relationship="bpf_cr08f_contract_cr08f_contractapproval" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9bf5ee9-8320-4948-a144-0eb5ab1a6fba}" showlabel="true" visible="true" labelid="{273e748d-14b7-421c-9667-2c1a9602b388}">
+                        <labels>
+                          <label description="Accountant approval" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr08f_contract_cr08f_contractapproval:cr08f_accountantapproval" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr08f_accountantapproval" disabled="false" relationship="bpf_cr08f_contract_cr08f_contractapproval" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{113f3812-c488-49fe-8a4a-b6c451ef6f21}" name="StageStep9" locklevel="0" expanded="true" visible="false" labelid="{48620693-0b24-45ae-9c49-6f75ef31d61b}">
+          <labels>
+            <label description="Manager Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{011fedea-b34d-6520-2b06-92db6e691ba4}" name="StageStep9_section1" labelid="{ddb59643-76f0-42ba-a0ac-ba2918fa086c}">
+                  <labels>
+                    <label description="Manager Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a620fb12-635b-41ab-b8af-345d1f9f59a0}" showlabel="true" visible="true" labelid="{bbba32aa-eb8d-495d-b11a-f526d9b02427}">
+                        <labels>
+                          <label description="Manager Notes" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr08f_contract_cr08f_contractapproval:cr08f_managernotes" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cr08f_managernotes" disabled="false" relationship="bpf_cr08f_contract_cr08f_contractapproval" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96fd3007-4c84-490a-bebe-19b7fb49e15b}" showlabel="true" visible="true" labelid="{72fdc25e-3085-4f7d-a64a-906220e607b8}">
+                        <labels>
+                          <label description="Manager approval" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr08f_contract_cr08f_contractapproval:cr08f_managerapproval" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr08f_managerapproval" disabled="false" relationship="bpf_cr08f_contract_cr08f_contractapproval" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

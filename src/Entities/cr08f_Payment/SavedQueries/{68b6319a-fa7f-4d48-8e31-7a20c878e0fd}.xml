@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{68b6319a-fa7f-4d48-8e31-7a20c878e0fd}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_id" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_paymentid">
+          <cell name="cr08f_id" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="cr08f_contact" width="100" />
+          <cell name="cr08f_amount" width="100" />
+          <cell name="cr08f_paymenttype" width="117" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_payment">
+          <attribute name="cr08f_paymentid" />
+          <attribute name="cr08f_id" />
+          <attribute name="createdon" />
+          <order attribute="cr08f_id" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="cr08f_contact" />
+          <attribute name="cr08f_amount" />
+          <attribute name="cr08f_paymenttype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Payments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

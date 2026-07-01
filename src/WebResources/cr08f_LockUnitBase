@@ -1,0 +1,13 @@
+function lockUnitBase(executionContext) {
+	var formContext = executionContext.getFormContext();
+	var Status = formContext.getAttribute("cr08f_contractstatus").getValue();
+	var unitControl = formContext.getControl("cr08f_unitbase");
+
+	var signed = 2;
+	if (Status == signed) {
+		unitControl.setDisabled(true);
+	}
+	else {
+		unitControl.setDisabled(false);
+	}
+}

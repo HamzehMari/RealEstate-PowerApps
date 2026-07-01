@@ -1,0 +1,17 @@
+function lockinstallment(executionContext){
+    var formContext = executionContext.getFormContext();
+    var Approved = formContext.getAttribute("cr08f_approved").getValue();
+
+    if (Approved == true) {
+        formContext.getControl("cr08f_client").setDisabled(true);
+        formContext.getControl("cr08f_unit").setDisabled(true);
+        formContext.getControl("cr08f_totalamount").setDisabled(true);
+        formContext.getControl("cr08f_numberofinstallments").setDisabled(true);
+    }
+ else {
+     formContext.getControl("cr08f_client").setDisabled(false);
+     formContext.getControl("cr08f_unit").setDisabled(false);
+     formContext.getControl("cr08f_totalamount").setDisabled(false);
+     formContext.getControl("cr08f_numberofinstallments").setDisabled(false);
+ }
+}

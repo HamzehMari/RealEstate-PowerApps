@@ -1,0 +1,19 @@
+function taxvisible(executionContext) {
+
+    var formContext = executionContext.getFormContext();
+
+    var contractTypeAttr = formContext.getAttribute("cr08f_contracttype");
+    if (!contractTypeAttr) return;
+
+    var contractType = contractTypeAttr.getValue();
+
+    var priceControl = formContext.getControl("cr08f_priceaftertax");
+    if (!priceControl) return;
+
+    if (contractType === 175140000) {
+        priceControl.setVisible(false);
+    }
+    else {
+        priceControl.setVisible(true);
+    }
+}
